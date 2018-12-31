@@ -1,0 +1,23 @@
+﻿@model  int
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StatusCode</title>
+</head>
+<body>
+    this is the status code pages.. you got a @Model code..
+
+    @if (@Model == 404)
+    {
+        <div>Your Page was MIA..</div>
+    }
+    
+</body>
+</html>
